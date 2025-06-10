@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F8FA">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Emotion Journal"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#2D3A4A"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="18dp"/>
+
+        <EditText
+            android:id="@+id/editTextJournal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="How are you feeling today? Write your thoughts..."
+            android:background="@drawable/edittext_bg"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/buttonAddPhoto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Photo"
+                android:drawableLeft="@android:drawable/ic_menu_camera"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonAddLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Location"
+                android:drawableLeft="@android:drawable/ic_menu_mylocation"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSaveJournal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Entry"
+            android:backgroundTint="#4F8EF7"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Past Entries"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2D3A4A"
+            android:layout_marginBottom="8dp"/>
+
+        <ListView
+            android:id="@+id/listViewJournals"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:padding="4dp"/>
+    </LinearLayout>
+</ScrollView>

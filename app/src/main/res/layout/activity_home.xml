@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textViewHomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/buttonMood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood Tracker" />
+
+        <Button
+            android:id="@+id/buttonJournal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emotion Journal"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Self-Assessment Quiz"
+            android:layout_marginTop="12dp" />
+
+        <!-- New Button for Mood Quiz Result Navigation -->
+        <Button
+            android:id="@+id/buttonMoodQuizResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood Quiz Result"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reminders"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>

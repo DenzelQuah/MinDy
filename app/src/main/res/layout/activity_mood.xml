@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mood Tracker"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="How are you feeling?" />
+
+    <Button
+        android:id="@+id/buttonCapturePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Photo" />
+
+    <Button
+        android:id="@+id/buttonGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location" />
+
+    <Button
+        android:id="@+id/buttonSaveMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Mood"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/listViewMoods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

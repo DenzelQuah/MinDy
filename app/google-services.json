@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515024457859",
+    "project_id": "mindy-4474d",
+    "storage_bucket": "mindy-4474d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515024457859:android:d06ce1d6277667e76f0bb6",
+        "android_client_info": {
+          "package_name": "com.example.mindyfindyourself"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjU4-LHlbcolRDBgz1AbX9HIHMwMWYcnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
